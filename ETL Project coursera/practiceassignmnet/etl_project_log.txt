@@ -1,0 +1,27 @@
+2024-05-26 17:54:14,640 - INFO - Starting the ETL process
+2024-05-26 17:54:14,640 - INFO - Scraping data
+2024-05-26 17:54:17,880 - INFO - Scraping data completed
+2024-05-26 17:54:17,880 - INFO - Transforming data
+2024-05-26 17:54:17,882 - INFO - Data transformation completed
+2024-05-26 17:54:17,882 - INFO - Saving data to JSON file: Countries_by_GDP.json
+2024-05-26 17:54:17,885 - INFO - Data saved to JSON file: Countries_by_GDP.json
+2024-05-26 17:54:17,885 - INFO - Saving data to database: World_Economies.db, table: Countries_by_GDP
+2024-05-26 17:54:17,898 - INFO - Data saved to database: World_Economies.db, table: Countries_by_GDP
+2024-05-26 17:54:17,898 - INFO - Querying database for economies with more than 100 billion USD GDP
+2024-05-26 17:54:17,900 - INFO - Query executed successfully
+2024-05-26 17:54:17,908 - INFO - Query result:
+          Country    Region  GDP (billion USDs)  Year
+0   United States  Americas            26854.60  2023
+1           China      Asia            19373.59  2023
+2           Japan      Asia             4409.74  2023
+3         Germany    Europe             4308.85  2023
+4           India      Asia             3736.88  2023
+..            ...       ...                 ...   ...
+64          Kenya    Africa              118.13  2023
+65         Angola    Africa              117.88  2023
+66           Oman      Asia              104.90  2023
+67      Guatemala  Americas              102.31  2023
+68       Bulgaria    Europe              100.64  2023
+
+[69 rows x 4 columns]
+2024-05-26 17:54:17,908 - INFO - ETL process completed

@@ -1,0 +1,1280 @@
+[
+    {
+        "Country":"United States",
+        "Region":"Americas",
+        "GDP (billion USDs)":26854.6,
+        "Year":2023
+    },
+    {
+        "Country":"China",
+        "Region":"Asia",
+        "GDP (billion USDs)":19373.59,
+        "Year":2023
+    },
+    {
+        "Country":"Japan",
+        "Region":"Asia",
+        "GDP (billion USDs)":4409.74,
+        "Year":2023
+    },
+    {
+        "Country":"Germany",
+        "Region":"Europe",
+        "GDP (billion USDs)":4308.85,
+        "Year":2023
+    },
+    {
+        "Country":"India",
+        "Region":"Asia",
+        "GDP (billion USDs)":3736.88,
+        "Year":2023
+    },
+    {
+        "Country":"United Kingdom",
+        "Region":"Europe",
+        "GDP (billion USDs)":3158.94,
+        "Year":2023
+    },
+    {
+        "Country":"France",
+        "Region":"Europe",
+        "GDP (billion USDs)":2923.49,
+        "Year":2023
+    },
+    {
+        "Country":"Italy",
+        "Region":"Europe",
+        "GDP (billion USDs)":2169.74,
+        "Year":2023
+    },
+    {
+        "Country":"Canada",
+        "Region":"Americas",
+        "GDP (billion USDs)":2089.67,
+        "Year":2023
+    },
+    {
+        "Country":"Brazil",
+        "Region":"Americas",
+        "GDP (billion USDs)":2081.24,
+        "Year":2023
+    },
+    {
+        "Country":"Russia",
+        "Region":"Europe",
+        "GDP (billion USDs)":2062.65,
+        "Year":2023
+    },
+    {
+        "Country":"South Korea",
+        "Region":"Asia",
+        "GDP (billion USDs)":1721.91,
+        "Year":2023
+    },
+    {
+        "Country":"Australia",
+        "Region":"Oceania",
+        "GDP (billion USDs)":1707.55,
+        "Year":2023
+    },
+    {
+        "Country":"Mexico",
+        "Region":"Americas",
+        "GDP (billion USDs)":1663.16,
+        "Year":2023
+    },
+    {
+        "Country":"Spain",
+        "Region":"Europe",
+        "GDP (billion USDs)":1492.43,
+        "Year":2023
+    },
+    {
+        "Country":"Indonesia",
+        "Region":"Asia",
+        "GDP (billion USDs)":1391.78,
+        "Year":2023
+    },
+    {
+        "Country":"Netherlands",
+        "Region":"Europe",
+        "GDP (billion USDs)":1080.88,
+        "Year":2023
+    },
+    {
+        "Country":"Saudi Arabia",
+        "Region":"Asia",
+        "GDP (billion USDs)":1061.9,
+        "Year":2023
+    },
+    {
+        "Country":"Turkey",
+        "Region":"Asia",
+        "GDP (billion USDs)":1029.3,
+        "Year":2023
+    },
+    {
+        "Country":"Switzerland",
+        "Region":"Europe",
+        "GDP (billion USDs)":869.6,
+        "Year":2023
+    },
+    {
+        "Country":"Taiwan",
+        "Region":"Asia",
+        "GDP (billion USDs)":790.73,
+        "Year":2023
+    },
+    {
+        "Country":"Poland",
+        "Region":"Europe",
+        "GDP (billion USDs)":748.89,
+        "Year":2023
+    },
+    {
+        "Country":"Argentina",
+        "Region":"Americas",
+        "GDP (billion USDs)":641.1,
+        "Year":2023
+    },
+    {
+        "Country":"Belgium",
+        "Region":"Europe",
+        "GDP (billion USDs)":624.25,
+        "Year":2023
+    },
+    {
+        "Country":"Sweden",
+        "Region":"Europe",
+        "GDP (billion USDs)":599.05,
+        "Year":2023
+    },
+    {
+        "Country":"Ireland",
+        "Region":"Europe",
+        "GDP (billion USDs)":594.1,
+        "Year":2023
+    },
+    {
+        "Country":"Thailand",
+        "Region":"Asia",
+        "GDP (billion USDs)":574.23,
+        "Year":2023
+    },
+    {
+        "Country":"Norway",
+        "Region":"Europe",
+        "GDP (billion USDs)":554.11,
+        "Year":2023
+    },
+    {
+        "Country":"Israel",
+        "Region":"Asia",
+        "GDP (billion USDs)":539.22,
+        "Year":2023
+    },
+    {
+        "Country":"Singapore",
+        "Region":"Asia",
+        "GDP (billion USDs)":515.55,
+        "Year":2023
+    },
+    {
+        "Country":"Austria",
+        "Region":"Europe",
+        "GDP (billion USDs)":515.2,
+        "Year":2023
+    },
+    {
+        "Country":"Nigeria",
+        "Region":"Africa",
+        "GDP (billion USDs)":506.6,
+        "Year":2023
+    },
+    {
+        "Country":"United Arab Emirates",
+        "Region":"Asia",
+        "GDP (billion USDs)":498.98,
+        "Year":2023
+    },
+    {
+        "Country":"Vietnam",
+        "Region":"Asia",
+        "GDP (billion USDs)":449.09,
+        "Year":2023
+    },
+    {
+        "Country":"Malaysia",
+        "Region":"Asia",
+        "GDP (billion USDs)":447.03,
+        "Year":2023
+    },
+    {
+        "Country":"Philippines",
+        "Region":"Asia",
+        "GDP (billion USDs)":440.9,
+        "Year":2023
+    },
+    {
+        "Country":"Bangladesh",
+        "Region":"Asia",
+        "GDP (billion USDs)":420.52,
+        "Year":2023
+    },
+    {
+        "Country":"Denmark",
+        "Region":"Europe",
+        "GDP (billion USDs)":405.63,
+        "Year":2023
+    },
+    {
+        "Country":"South Africa",
+        "Region":"Africa",
+        "GDP (billion USDs)":399.01,
+        "Year":2023
+    },
+    {
+        "Country":"Hong Kong",
+        "Region":"Asia",
+        "GDP (billion USDs)":382.85,
+        "Year":2023
+    },
+    {
+        "Country":"Egypt",
+        "Region":"Africa",
+        "GDP (billion USDs)":378.11,
+        "Year":2023
+    },
+    {
+        "Country":"Pakistan",
+        "Region":"Asia",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Iran",
+        "Region":"Asia",
+        "GDP (billion USDs)":367.97,
+        "Year":2023
+    },
+    {
+        "Country":"Chile",
+        "Region":"Americas",
+        "GDP (billion USDs)":358.56,
+        "Year":2023
+    },
+    {
+        "Country":"Romania",
+        "Region":"Europe",
+        "GDP (billion USDs)":348.9,
+        "Year":2023
+    },
+    {
+        "Country":"Colombia",
+        "Region":"Americas",
+        "GDP (billion USDs)":334.69,
+        "Year":2023
+    },
+    {
+        "Country":"Czech Republic",
+        "Region":"Europe",
+        "GDP (billion USDs)":330.48,
+        "Year":2023
+    },
+    {
+        "Country":"Finland",
+        "Region":"Europe",
+        "GDP (billion USDs)":301.67,
+        "Year":2023
+    },
+    {
+        "Country":"Peru",
+        "Region":"Americas",
+        "GDP (billion USDs)":268.24,
+        "Year":2023
+    },
+    {
+        "Country":"Iraq",
+        "Region":"Asia",
+        "GDP (billion USDs)":267.89,
+        "Year":2023
+    },
+    {
+        "Country":"Portugal",
+        "Region":"Europe",
+        "GDP (billion USDs)":267.72,
+        "Year":2023
+    },
+    {
+        "Country":"New Zealand",
+        "Region":"Oceania",
+        "GDP (billion USDs)":251.97,
+        "Year":2023
+    },
+    {
+        "Country":"Kazakhstan",
+        "Region":"Asia",
+        "GDP (billion USDs)":245.69,
+        "Year":2023
+    },
+    {
+        "Country":"Greece",
+        "Region":"Europe",
+        "GDP (billion USDs)":239.3,
+        "Year":2023
+    },
+    {
+        "Country":"Qatar",
+        "Region":"Asia",
+        "GDP (billion USDs)":219.57,
+        "Year":2023
+    },
+    {
+        "Country":"Algeria",
+        "Region":"Africa",
+        "GDP (billion USDs)":206.01,
+        "Year":2023
+    },
+    {
+        "Country":"Hungary",
+        "Region":"Europe",
+        "GDP (billion USDs)":188.5,
+        "Year":2023
+    },
+    {
+        "Country":"Kuwait",
+        "Region":"Asia",
+        "GDP (billion USDs)":164.71,
+        "Year":2023
+    },
+    {
+        "Country":"Ethiopia",
+        "Region":"Africa",
+        "GDP (billion USDs)":156.08,
+        "Year":2023
+    },
+    {
+        "Country":"Ukraine",
+        "Region":"Europe",
+        "GDP (billion USDs)":148.71,
+        "Year":2023
+    },
+    {
+        "Country":"Morocco",
+        "Region":"Africa",
+        "GDP (billion USDs)":138.78,
+        "Year":2023
+    },
+    {
+        "Country":"Slovakia",
+        "Region":"Europe",
+        "GDP (billion USDs)":127.53,
+        "Year":2023
+    },
+    {
+        "Country":"Ecuador",
+        "Region":"Americas",
+        "GDP (billion USDs)":121.29,
+        "Year":2023
+    },
+    {
+        "Country":"Dominican Republic",
+        "Region":"Americas",
+        "GDP (billion USDs)":121.29,
+        "Year":2023
+    },
+    {
+        "Country":"Puerto Rico",
+        "Region":"Americas",
+        "GDP (billion USDs)":120.84,
+        "Year":2023
+    },
+    {
+        "Country":"Kenya",
+        "Region":"Africa",
+        "GDP (billion USDs)":118.13,
+        "Year":2023
+    },
+    {
+        "Country":"Angola",
+        "Region":"Africa",
+        "GDP (billion USDs)":117.88,
+        "Year":2023
+    },
+    {
+        "Country":"Cuba",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Oman",
+        "Region":"Asia",
+        "GDP (billion USDs)":104.9,
+        "Year":2023
+    },
+    {
+        "Country":"Guatemala",
+        "Region":"Americas",
+        "GDP (billion USDs)":102.31,
+        "Year":2023
+    },
+    {
+        "Country":"Bulgaria",
+        "Region":"Europe",
+        "GDP (billion USDs)":100.64,
+        "Year":2023
+    },
+    {
+        "Country":"Venezuela",
+        "Region":"Americas",
+        "GDP (billion USDs)":96.63,
+        "Year":2023
+    },
+    {
+        "Country":"Uzbekistan",
+        "Region":"Asia",
+        "GDP (billion USDs)":92.33,
+        "Year":2023
+    },
+    {
+        "Country":"Luxembourg",
+        "Region":"Europe",
+        "GDP (billion USDs)":86.97,
+        "Year":2023
+    },
+    {
+        "Country":"Tanzania",
+        "Region":"Africa",
+        "GDP (billion USDs)":85.42,
+        "Year":2023
+    },
+    {
+        "Country":"Turkmenistan",
+        "Region":"Asia",
+        "GDP (billion USDs)":82.65,
+        "Year":2023
+    },
+    {
+        "Country":"Croatia",
+        "Region":"Europe",
+        "GDP (billion USDs)":78.88,
+        "Year":2023
+    },
+    {
+        "Country":"Lithuania",
+        "Region":"Europe",
+        "GDP (billion USDs)":78.35,
+        "Year":2023
+    },
+    {
+        "Country":"Costa Rica",
+        "Region":"Americas",
+        "GDP (billion USDs)":77.78,
+        "Year":2023
+    },
+    {
+        "Country":"Uruguay",
+        "Region":"Americas",
+        "GDP (billion USDs)":77.31,
+        "Year":2023
+    },
+    {
+        "Country":"Panama",
+        "Region":"Americas",
+        "GDP (billion USDs)":77.26,
+        "Year":2023
+    },
+    {
+        "Country":"Ivory Coast",
+        "Region":"Africa",
+        "GDP (billion USDs)":77.05,
+        "Year":2023
+    },
+    {
+        "Country":"Sri Lanka",
+        "Region":"Asia",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Serbia",
+        "Region":"Europe",
+        "GDP (billion USDs)":73.96,
+        "Year":2023
+    },
+    {
+        "Country":"Belarus",
+        "Region":"Europe",
+        "GDP (billion USDs)":73.54,
+        "Year":2023
+    },
+    {
+        "Country":"Azerbaijan",
+        "Region":"Asia",
+        "GDP (billion USDs)":70.03,
+        "Year":2023
+    },
+    {
+        "Country":"DR Congo",
+        "Region":"Africa",
+        "GDP (billion USDs)":69.47,
+        "Year":2023
+    },
+    {
+        "Country":"Slovenia",
+        "Region":"Europe",
+        "GDP (billion USDs)":68.11,
+        "Year":2023
+    },
+    {
+        "Country":"Ghana",
+        "Region":"Africa",
+        "GDP (billion USDs)":66.62,
+        "Year":2023
+    },
+    {
+        "Country":"Myanmar",
+        "Region":"Asia",
+        "GDP (billion USDs)":63.99,
+        "Year":2023
+    },
+    {
+        "Country":"Jordan",
+        "Region":"Asia",
+        "GDP (billion USDs)":52.06,
+        "Year":2023
+    },
+    {
+        "Country":"Tunisia",
+        "Region":"Africa",
+        "GDP (billion USDs)":49.81,
+        "Year":2023
+    },
+    {
+        "Country":"Uganda",
+        "Region":"Africa",
+        "GDP (billion USDs)":49.79,
+        "Year":2023
+    },
+    {
+        "Country":"Cameroon",
+        "Region":"Africa",
+        "GDP (billion USDs)":48.62,
+        "Year":2023
+    },
+    {
+        "Country":"Latvia",
+        "Region":"Europe",
+        "GDP (billion USDs)":47.4,
+        "Year":2023
+    },
+    {
+        "Country":"Sudan",
+        "Region":"Africa",
+        "GDP (billion USDs)":46.7,
+        "Year":2023
+    },
+    {
+        "Country":"Libya",
+        "Region":"Africa",
+        "GDP (billion USDs)":46.3,
+        "Year":2023
+    },
+    {
+        "Country":"Bolivia",
+        "Region":"Americas",
+        "GDP (billion USDs)":46.1,
+        "Year":2023
+    },
+    {
+        "Country":"Bahrain",
+        "Region":"Asia",
+        "GDP (billion USDs)":44.87,
+        "Year":2023
+    },
+    {
+        "Country":"Paraguay",
+        "Region":"Americas",
+        "GDP (billion USDs)":42.82,
+        "Year":2023
+    },
+    {
+        "Country":"Nepal",
+        "Region":"Asia",
+        "GDP (billion USDs)":42.1,
+        "Year":2023
+    },
+    {
+        "Country":"Estonia",
+        "Region":"Europe",
+        "GDP (billion USDs)":41.55,
+        "Year":2023
+    },
+    {
+        "Country":"Macau",
+        "Region":"Asia",
+        "GDP (billion USDs)":35.84,
+        "Year":2023
+    },
+    {
+        "Country":"El Salvador",
+        "Region":"Americas",
+        "GDP (billion USDs)":33.75,
+        "Year":2023
+    },
+    {
+        "Country":"Honduras",
+        "Region":"Americas",
+        "GDP (billion USDs)":32.86,
+        "Year":2023
+    },
+    {
+        "Country":"Papua New Guinea",
+        "Region":"Oceania",
+        "GDP (billion USDs)":31.36,
+        "Year":2023
+    },
+    {
+        "Country":"Senegal",
+        "Region":"Africa",
+        "GDP (billion USDs)":31.22,
+        "Year":2023
+    },
+    {
+        "Country":"Cyprus",
+        "Region":"Asia",
+        "GDP (billion USDs)":30.86,
+        "Year":2023
+    },
+    {
+        "Country":"Cambodia",
+        "Region":"Asia",
+        "GDP (billion USDs)":30.63,
+        "Year":2023
+    },
+    {
+        "Country":"Zimbabwe",
+        "Region":"Africa",
+        "GDP (billion USDs)":29.93,
+        "Year":2023
+    },
+    {
+        "Country":"Zambia",
+        "Region":"Africa",
+        "GDP (billion USDs)":29.27,
+        "Year":2023
+    },
+    {
+        "Country":"Iceland",
+        "Region":"Europe",
+        "GDP (billion USDs)":28.62,
+        "Year":2023
+    },
+    {
+        "Country":"Bosnia and Herzegovina",
+        "Region":"Europe",
+        "GDP (billion USDs)":28.49,
+        "Year":2023
+    },
+    {
+        "Country":"Trinidad and Tobago",
+        "Region":"Americas",
+        "GDP (billion USDs)":28.22,
+        "Year":2023
+    },
+    {
+        "Country":"Georgia",
+        "Region":"Europe",
+        "GDP (billion USDs)":27.95,
+        "Year":2023
+    },
+    {
+        "Country":"Haiti",
+        "Region":"Americas",
+        "GDP (billion USDs)":26.58,
+        "Year":2023
+    },
+    {
+        "Country":"Lebanon",
+        "Region":"Asia",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Armenia",
+        "Region":"Asia",
+        "GDP (billion USDs)":23.73,
+        "Year":2023
+    },
+    {
+        "Country":"Guinea",
+        "Region":"Africa",
+        "GDP (billion USDs)":23.33,
+        "Year":2023
+    },
+    {
+        "Country":"Burkina Faso",
+        "Region":"Africa",
+        "GDP (billion USDs)":21.08,
+        "Year":2023
+    },
+    {
+        "Country":"Mali",
+        "Region":"Africa",
+        "GDP (billion USDs)":20.78,
+        "Year":2023
+    },
+    {
+        "Country":"Gabon",
+        "Region":"Africa",
+        "GDP (billion USDs)":20.33,
+        "Year":2023
+    },
+    {
+        "Country":"Albania",
+        "Region":"Europe",
+        "GDP (billion USDs)":20.18,
+        "Year":2023
+    },
+    {
+        "Country":"Afghanistan",
+        "Region":"Asia",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Mozambique",
+        "Region":"Africa",
+        "GDP (billion USDs)":19.91,
+        "Year":2023
+    },
+    {
+        "Country":"Palestine",
+        "Region":"Asia",
+        "GDP (billion USDs)":19.21,
+        "Year":2023
+    },
+    {
+        "Country":"Botswana",
+        "Region":"Africa",
+        "GDP (billion USDs)":19.57,
+        "Year":2023
+    },
+    {
+        "Country":"Yemen",
+        "Region":"Asia",
+        "GDP (billion USDs)":19.53,
+        "Year":2023
+    },
+    {
+        "Country":"Malta",
+        "Region":"Europe",
+        "GDP (billion USDs)":19.41,
+        "Year":2023
+    },
+    {
+        "Country":"Benin",
+        "Region":"Africa",
+        "GDP (billion USDs)":19.24,
+        "Year":2023
+    },
+    {
+        "Country":"Nicaragua",
+        "Region":"Americas",
+        "GDP (billion USDs)":17.29,
+        "Year":2023
+    },
+    {
+        "Country":"Jamaica",
+        "Region":"Americas",
+        "GDP (billion USDs)":17.25,
+        "Year":2023
+    },
+    {
+        "Country":"Mongolia",
+        "Region":"Asia",
+        "GDP (billion USDs)":16.91,
+        "Year":2023
+    },
+    {
+        "Country":"Niger",
+        "Region":"Africa",
+        "GDP (billion USDs)":16.62,
+        "Year":2023
+    },
+    {
+        "Country":"Guyana",
+        "Region":"Americas",
+        "GDP (billion USDs)":16.31,
+        "Year":2023
+    },
+    {
+        "Country":"Brunei",
+        "Region":"Asia",
+        "GDP (billion USDs)":15.99,
+        "Year":2023
+    },
+    {
+        "Country":"Madagascar",
+        "Region":"Africa",
+        "GDP (billion USDs)":15.97,
+        "Year":2023
+    },
+    {
+        "Country":"North Korea",
+        "Region":"Asia",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Moldova",
+        "Region":"Europe",
+        "GDP (billion USDs)":15.83,
+        "Year":2023
+    },
+    {
+        "Country":"Syria",
+        "Region":"Asia",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"North Macedonia",
+        "Region":"Europe",
+        "GDP (billion USDs)":15.28,
+        "Year":2023
+    },
+    {
+        "Country":"Equatorial Guinea",
+        "Region":"Africa",
+        "GDP (billion USDs)":15.1,
+        "Year":2023
+    },
+    {
+        "Country":"Mauritius",
+        "Region":"Africa",
+        "GDP (billion USDs)":14.57,
+        "Year":2023
+    },
+    {
+        "Country":"Bahamas",
+        "Region":"Americas",
+        "GDP (billion USDs)":14.11,
+        "Year":2023
+    },
+    {
+        "Country":"Laos",
+        "Region":"Asia",
+        "GDP (billion USDs)":14.09,
+        "Year":2023
+    },
+    {
+        "Country":"Namibia",
+        "Region":"Africa",
+        "GDP (billion USDs)":13.49,
+        "Year":2023
+    },
+    {
+        "Country":"Rwanda",
+        "Region":"Africa",
+        "GDP (billion USDs)":13.15,
+        "Year":2023
+    },
+    {
+        "Country":"Congo",
+        "Region":"Africa",
+        "GDP (billion USDs)":13.03,
+        "Year":2023
+    },
+    {
+        "Country":"Tajikistan",
+        "Region":"Asia",
+        "GDP (billion USDs)":12.8,
+        "Year":2023
+    },
+    {
+        "Country":"Kyrgyzstan",
+        "Region":"Asia",
+        "GDP (billion USDs)":12.31,
+        "Year":2023
+    },
+    {
+        "Country":"Chad",
+        "Region":"Africa",
+        "GDP (billion USDs)":11.96,
+        "Year":2023
+    },
+    {
+        "Country":"Malawi",
+        "Region":"Africa",
+        "GDP (billion USDs)":11.28,
+        "Year":2023
+    },
+    {
+        "Country":"Mauritania",
+        "Region":"Africa",
+        "GDP (billion USDs)":10.97,
+        "Year":2023
+    },
+    {
+        "Country":"New Caledonia",
+        "Region":"Oceania",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Kosovo",
+        "Region":"Europe",
+        "GDP (billion USDs)":9.99,
+        "Year":2023
+    },
+    {
+        "Country":"Togo",
+        "Region":"Africa",
+        "GDP (billion USDs)":9.0,
+        "Year":2023
+    },
+    {
+        "Country":"Somalia",
+        "Region":"Africa",
+        "GDP (billion USDs)":8.74,
+        "Year":2023
+    },
+    {
+        "Country":"Monaco",
+        "Region":"Europe",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Bermuda",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Montenegro",
+        "Region":"Europe",
+        "GDP (billion USDs)":7.03,
+        "Year":2023
+    },
+    {
+        "Country":"South Sudan",
+        "Region":"Africa",
+        "GDP (billion USDs)":7.01,
+        "Year":2023
+    },
+    {
+        "Country":"Maldives",
+        "Region":"Asia",
+        "GDP (billion USDs)":7.0,
+        "Year":2023
+    },
+    {
+        "Country":"Liechtenstein",
+        "Region":"Europe",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Barbados",
+        "Region":"Americas",
+        "GDP (billion USDs)":6.12,
+        "Year":2023
+    },
+    {
+        "Country":"French Polynesia",
+        "Region":"Oceania",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Cayman Islands",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Fiji",
+        "Region":"Oceania",
+        "GDP (billion USDs)":5.38,
+        "Year":2023
+    },
+    {
+        "Country":"Eswatini",
+        "Region":"Africa",
+        "GDP (billion USDs)":4.82,
+        "Year":2023
+    },
+    {
+        "Country":"Liberia",
+        "Region":"Africa",
+        "GDP (billion USDs)":4.38,
+        "Year":2023
+    },
+    {
+        "Country":"Djibouti",
+        "Region":"Africa",
+        "GDP (billion USDs)":3.92,
+        "Year":2023
+    },
+    {
+        "Country":"Andorra",
+        "Region":"Europe",
+        "GDP (billion USDs)":3.67,
+        "Year":2023
+    },
+    {
+        "Country":"Aruba",
+        "Region":"Americas",
+        "GDP (billion USDs)":3.63,
+        "Year":2023
+    },
+    {
+        "Country":"Sierra Leone",
+        "Region":"Africa",
+        "GDP (billion USDs)":3.52,
+        "Year":2023
+    },
+    {
+        "Country":"Suriname",
+        "Region":"Americas",
+        "GDP (billion USDs)":3.47,
+        "Year":2023
+    },
+    {
+        "Country":"Burundi",
+        "Region":"Africa",
+        "GDP (billion USDs)":3.23,
+        "Year":2023
+    },
+    {
+        "Country":"Belize",
+        "Region":"Americas",
+        "GDP (billion USDs)":3.16,
+        "Year":2023
+    },
+    {
+        "Country":"Greenland",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Central African Republic",
+        "Region":"Africa",
+        "GDP (billion USDs)":2.74,
+        "Year":2023
+    },
+    {
+        "Country":"Cura\u00e7ao",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Bhutan",
+        "Region":"Asia",
+        "GDP (billion USDs)":2.68,
+        "Year":2023
+    },
+    {
+        "Country":"Eritrea",
+        "Region":"Africa",
+        "GDP (billion USDs)":2.67,
+        "Year":2023
+    },
+    {
+        "Country":"Lesotho",
+        "Region":"Africa",
+        "GDP (billion USDs)":2.58,
+        "Year":2023
+    },
+    {
+        "Country":"Cape Verde",
+        "Region":"Africa",
+        "GDP (billion USDs)":2.47,
+        "Year":2023
+    },
+    {
+        "Country":"Gambia",
+        "Region":"Africa",
+        "GDP (billion USDs)":2.28,
+        "Year":2023
+    },
+    {
+        "Country":"Saint Lucia",
+        "Region":"Americas",
+        "GDP (billion USDs)":2.26,
+        "Year":2023
+    },
+    {
+        "Country":"East Timor",
+        "Region":"Asia",
+        "GDP (billion USDs)":1.99,
+        "Year":2023
+    },
+    {
+        "Country":"Seychelles",
+        "Region":"Africa",
+        "GDP (billion USDs)":1.95,
+        "Year":2023
+    },
+    {
+        "Country":"Guinea-Bissau",
+        "Region":"Africa",
+        "GDP (billion USDs)":1.89,
+        "Year":2023
+    },
+    {
+        "Country":"Antigua and Barbuda",
+        "Region":"Americas",
+        "GDP (billion USDs)":1.86,
+        "Year":2023
+    },
+    {
+        "Country":"San Marino",
+        "Region":"Europe",
+        "GDP (billion USDs)":1.81,
+        "Year":2023
+    },
+    {
+        "Country":"Zanzibar",
+        "Region":"Africa",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Solomon Islands",
+        "Region":"Oceania",
+        "GDP (billion USDs)":1.7,
+        "Year":2023
+    },
+    {
+        "Country":"British Virgin Islands",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Comoros",
+        "Region":"Africa",
+        "GDP (billion USDs)":1.35,
+        "Year":2023
+    },
+    {
+        "Country":"Grenada",
+        "Region":"Americas",
+        "GDP (billion USDs)":1.27,
+        "Year":2023
+    },
+    {
+        "Country":"Vanuatu",
+        "Region":"Oceania",
+        "GDP (billion USDs)":1.06,
+        "Year":2023
+    },
+    {
+        "Country":"Saint Kitts and Nevis",
+        "Region":"Americas",
+        "GDP (billion USDs)":1.05,
+        "Year":2023
+    },
+    {
+        "Country":"Saint Vincent and the Grenadines",
+        "Region":"Americas",
+        "GDP (billion USDs)":1.04,
+        "Year":2023
+    },
+    {
+        "Country":"Turks and Caicos Islands",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Samoa",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.9,
+        "Year":2023
+    },
+    {
+        "Country":"Sint Maarten",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Dominica",
+        "Region":"Americas",
+        "GDP (billion USDs)":0.68,
+        "Year":2023
+    },
+    {
+        "Country":"S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "Region":"Africa",
+        "GDP (billion USDs)":0.62,
+        "Year":2023
+    },
+    {
+        "Country":"Tonga",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.54,
+        "Year":2023
+    },
+    {
+        "Country":"Micronesia",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.46,
+        "Year":2023
+    },
+    {
+        "Country":"Marshall Islands",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.29,
+        "Year":2023
+    },
+    {
+        "Country":"Cook Islands",
+        "Region":"Oceania",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Palau",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.26,
+        "Year":2023
+    },
+    {
+        "Country":"Anguilla",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Kiribati",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.25,
+        "Year":2023
+    },
+    {
+        "Country":"Nauru",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.15,
+        "Year":2023
+    },
+    {
+        "Country":"Montserrat",
+        "Region":"Americas",
+        "GDP (billion USDs)":null,
+        "Year":null
+    },
+    {
+        "Country":"Tuvalu",
+        "Region":"Oceania",
+        "GDP (billion USDs)":0.07,
+        "Year":2023
+    }
+]
