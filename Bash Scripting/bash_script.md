@@ -128,5 +128,3 @@ Save and close the crontab file. The script will now run daily at the specified 
 ## Conclusion
 
 This script helps in automating the backup process for files modified in the last 24 hours, ensuring that your important data is backed up regularly and efficiently.
-
-You can save this content into a file named `README.md` in your project directory. This provides a clear and detailed explanation of the script's functionality and usage.
