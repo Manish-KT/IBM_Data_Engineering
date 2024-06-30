@@ -10,10 +10,10 @@ The IBM Data Engineering Professional Certificate program is designed to equip l
 
 ### Courses Completed
 - [x] Course 1: Introduction to Data Engineering
-- [x] Course 2: Python Project for Data Engineering (ETL Pipeline)
-- [ ] Course 3: Introduction to Relational Databases (RDBMS)
-- [ ] Course 4: Databases and SQL for Data Science with Python
-- [ ] Course 5: Hands-on Introduction to Linux Commands and Shell Scripting
+- [ ] Course 2: Python Project for Data Engineering (ETL Pipeline)
+- [x] Course 3: Introduction to Relational Databases (RDBMS)
+- [x] Course 4: Databases and SQL for Data Science with Python
+- [x] Course 5: Hands-on Introduction to Linux Commands and Shell Scripting
 - [ ] Course 6: Relational Database Administration (DBA)
 - [ ] Course 7: ETL and Data Pipelines with Shell, Airflow and Kafka
 - [ ] Course 8: Getting Started with Data Warehousing and BI Analytics
@@ -26,6 +26,9 @@ The IBM Data Engineering Professional Certificate program is designed to equip l
 1. Project 1: Web Data Scraping and ETL
    - [x] Task 1: Web Data Scraping
    - [x] Task 2: Extract, Transform, and Load (ETL) Process
+2. Project 2: Bash Scripting
+   - [x] Task 1: Create a Bash Script for file backup.
+   - [X] Task 2: Use Cronetab to schedule the script.
 
 
 ### Additional Resources
