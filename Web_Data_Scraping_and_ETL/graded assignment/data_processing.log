@@ -1,23 +1,37 @@
-2024-05-27 16:27:18,762 - INFO - Initializing data extraction from URL: https://www.forbesindia.com/article/explainers/the-10-largest-banks-in-the-world/86967/1...
-2024-05-27 16:27:18,762 - INFO - Fetching currency exchange rates from API: https://open.er-api.com/v6/latest/USD...
-2024-05-27 16:27:19,397 - INFO - Currency exchange rates fetched.
-2024-05-27 16:27:19,397 - INFO - Extracting table data from URL...
-2024-05-27 16:27:19,771 - ERROR - Error occurred while extracting table data: list index out of range
-2024-05-27 16:27:19,785 - INFO - Table data extraction completed.
-2024-05-27 16:27:19,785 - INFO - Converting market capitalization to other currencies...
-2024-05-27 16:27:19,787 - INFO - Currency conversion completed.
-2024-05-27 16:27:19,787 - INFO - Saving data to CSV file: bank_data.csv...
-2024-05-27 16:27:19,802 - INFO - Data saved to CSV file.
-2024-05-27 16:27:19,802 - INFO - Loading data to SQL database: bank_data.db, table: bank_data...
-2024-05-27 16:27:19,823 - INFO - Data loaded to SQL database.
-2024-05-27 16:27:19,823 - INFO - Running SQL query: SELECT `Rank & Bank`, `Market Cap (billion GBPs)` FROM bank_data WHERE `Rank & Bank` LIKE '%London%';...
-2024-05-27 16:27:19,824 - INFO - SQL query execution completed.
-2024-05-27 16:27:19,824 - INFO - Running SQL query: SELECT `Rank & Bank`, `Market Cap (billion EURs)` FROM bank_data WHERE `Rank & Bank` LIKE '%Berlin%';...
-2024-05-27 16:27:19,824 - INFO - SQL query execution completed.
-2024-05-27 16:27:19,824 - INFO - Running SQL query: SELECT `Rank & Bank`, `Market Cap (billion INRs)` FROM bank_data WHERE `Rank & Bank` LIKE '%New Delhi%';...
-2024-05-27 16:27:19,825 - INFO - SQL query execution completed.
-2024-05-27 16:27:19,825 - INFO - Results of SQL queries:
-2024-05-27 16:27:19,825 - INFO - London: []
-2024-05-27 16:27:19,825 - INFO - Berlin: []
-2024-05-27 16:27:19,825 - INFO - Delhi: []
-2024-05-27 16:27:19,825 - INFO - Data extraction and processing completed.
+2024-06-18 01:15:25,330 - INFO - Initializing data extraction from URL: https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks...
+2024-06-18 01:15:25,333 - INFO - Currency exchange rates fetched.
+2024-06-18 01:15:25,333 - INFO - Extracting table data from URL...
+2024-06-18 01:15:26,586 - INFO - Table data extraction completed.
+2024-06-18 01:15:26,586 - INFO - Converting market capitalization to other currencies...
+2024-06-18 01:15:26,587 - INFO - Currency conversion completed.
+2024-06-18 01:15:26,587 - INFO - Saving data to CSV file: bank_data.csv...
+2024-06-18 01:15:26,590 - INFO - Data saved to CSV file.
+2024-06-18 01:15:26,590 - INFO - Loading data to SQL database: bank_data.db, table: bank_data...
+2024-06-18 01:15:26,608 - INFO - Data loaded to SQL database.
+2024-06-18 01:15:26,609 - INFO - Running SQL query: SELECT * FROM bank_data...
+2024-06-18 01:15:26,611 - INFO - SQL query execution completed.
+2024-06-18 01:15:26,611 - INFO - Running SQL query: SELECT AVG(Market_Cap_billion_GBPs) FROM bank_data...
+2024-06-18 01:15:26,612 - INFO - SQL query execution completed.
+2024-06-18 01:15:26,612 - INFO - Running SQL query: SELECT Name FROM bank_data LIMIT 5...
+2024-06-18 01:15:26,613 - INFO - SQL query execution completed.
+2024-06-18 01:15:26,613 - INFO - Results of SQL queries:
+2024-06-18 01:15:26,622 - INFO - query1:       0                                           1       2       3       4         5
+0   1\n                            JPMorgan Chase\n  432.92  346.34  322.10  26718.20
+1   2\n                           Bank of America\n  231.52  185.22  172.25  14288.14
+2   3\n   Industrial and Commercial Bank of China\n  194.56  155.65  144.75  12007.01
+3   4\n                Agricultural Bank of China\n  160.68  128.54  119.54   9915.84
+4   5\n                                 HDFC Bank\n  157.91  126.33  117.49   9745.80
+5   6\n                               Wells Fargo\n  155.87  124.70  115.97   9619.71
+6   7\n                         HSBC Holdings PLC\n  148.90  119.12  110.78   9189.20
+7   8\n                            Morgan Stanley\n  140.83  112.66  104.77   8690.67
+8   9\n                   China Construction Bank\n  139.82  111.86  104.03   8629.29
+9  10\n                             Bank of China\n  136.81  109.45  101.79   8443.48
+2024-06-18 01:15:26,623 - INFO - query2:          0
+0  151.987
+2024-06-18 01:15:26,625 - INFO - query3:                                             0
+0                            JPMorgan Chase\n
+1                           Bank of America\n
+2   Industrial and Commercial Bank of China\n
+3                Agricultural Bank of China\n
+4                                 HDFC Bank\n
+2024-06-18 01:15:26,625 - INFO - Data extraction and processing completed.

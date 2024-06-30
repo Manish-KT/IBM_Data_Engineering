@@ -1,11 +1,32 @@
-Rank & Bank,Headquarters,Market Cap (billion USDs),Market Cap (billion GBPs),Market Cap (billion EURs),Market Cap (billion INRs)
-JPMorgan Chase,"New York, USA",551.03,432.71,508.04,45794.79
-Bank of America,"North Carolina, USA",288.96,226.91,266.42,24014.78
-Industrial and Commercial Bank of China Limited,"Beijing, China",249.28,195.75,229.83,20717.07
-Wells Fargo,"California, USA",208.41,163.66,192.15,17320.46
-Agricultural Bank of China,"Beijing, China",207.79,163.17,191.58,17268.93
-Bank of China,"Beijing, China",171.35,134.56,157.98,14240.49
-China Construction Bank,"Beijing, China",166.19,130.51,153.23,13811.66
-HSBC,"London, UK",164.48,129.16,151.65,13669.54
-Morgan Stanley,"New York, USA",148.9,116.93,137.28,12374.72
-HDFC Bank,"Mumbai, India",147.31,115.68,135.82,12242.58
+"Rank
+",Name,Market_Cap_billion_USDs),Market_Cap_billion_GBPs,Market_Cap_billion_EURs,Market_Cap_billion_INRs
+"1
+"," JPMorgan Chase
+",432.92,346.34,322.1,26718.2
+"2
+"," Bank of America
+",231.52,185.22,172.25,14288.14
+"3
+"," Industrial and Commercial Bank of China
+",194.56,155.65,144.75,12007.01
+"4
+"," Agricultural Bank of China
+",160.68,128.54,119.54,9915.84
+"5
+"," HDFC Bank
+",157.91,126.33,117.49,9745.8
+"6
+"," Wells Fargo
+",155.87,124.7,115.97,9619.71
+"7
+"," HSBC Holdings PLC
+",148.9,119.12,110.78,9189.2
+"8
+"," Morgan Stanley
+",140.83,112.66,104.77,8690.67
+"9
+"," China Construction Bank
+",139.82,111.86,104.03,8629.29
+"10
+"," Bank of China
+",136.81,109.45,101.79,8443.48

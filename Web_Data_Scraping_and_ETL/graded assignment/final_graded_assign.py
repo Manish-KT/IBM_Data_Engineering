@@ -11,7 +11,7 @@ def extract_table_data(url):
     logging.info("Extracting table data from URL...")
     data = requests.get(url).text
     soup = BeautifulSoup(data, "html.parser")
-    table = soup.find("table", {"style": "border-collapse: collapse;"})
+    table = soup.find("table", {"class": "wikitable"})
     table_rows = table.find("tbody").find_all("tr")
     table_head = [i.text for i in table.find_all("th")]
     df = {key: [] for key in table_head}
@@ -26,12 +26,13 @@ def extract_table_data(url):
             continue
             
     df = pd.DataFrame(df)
-    df.rename(columns={"Market Cap": "Market Cap (billion USDs)"}, inplace=True)
-    df["Rank & Bank"] = df["Rank & Bank"].apply(lambda x: " ".join(x.split(" ")[1:]))
-    df["Market Cap (billion USDs)"] = df["Market Cap (billion USDs)"].apply(lambda x: float(x.replace("B", "").replace("$", "")))
-    df["Market Cap (billion USDs)"] = df["Market Cap (billion USDs)"].apply(lambda x: round(x, 2))
-    
+    # convert column to float
+    df[table_head[-1]] = df[table_head[-1]].astype(float)
+    # rename column
+    df.rename(columns={table_head[-1]: "Market_Cap_billion_USDs)"}, inplace=True) 
+    df.rename(columns={table_head[1]: "Name"}, inplace=True)
     logging.info("Table data extraction completed.")
+
     return df
 
 def convert_to_other_currencies(df, exchange_rates):
@@ -39,8 +40,8 @@ def convert_to_other_currencies(df, exchange_rates):
     exchanges = ["GBP", "EUR", "INR"]
     
     for i in exchanges:
-        col_name = f"Market Cap (billion {i}s)"
-        df[col_name] = df["Market Cap (billion USDs)"].apply(lambda x: round(x * exchange_rates[i], 2))
+        col_name = f"Market_Cap_billion_{i}s"
+        df[col_name] = df[df.columns[-1]].apply(lambda x: round(x * exchange_rates[i], 2))
         
     logging.info("Currency conversion completed.")
     return df
@@ -63,20 +64,19 @@ def run_query(db_filename, query):
     cursor = conn.cursor()
     cursor.execute(query)
     result = cursor.fetchall()
+    result = pd.DataFrame(result)
     conn.close()
     logging.info("SQL query execution completed.")
     return result
 
 def main():
     # URL for extracting data
-    url = "https://www.forbesindia.com/article/explainers/the-10-largest-banks-in-the-world/86967/1"
+    url = "https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks"
     logging.info(f"Initializing data extraction from URL: {url}...")
 
-    # Fetching currency exchange rates from API
-    exchange_api_url = "https://open.er-api.com/v6/latest/USD"
-    logging.info(f"Fetching currency exchange rates from API: {exchange_api_url}...")
-    response = requests.get(exchange_api_url)
-    exchange_rates = response.json()["rates"]
+    # Fetching currency exchange rates from CSV file
+    exchange_rates = pd.read_csv("exchange_rate.csv")
+    exchange_rates = dict(zip(exchange_rates["Currency"], exchange_rates["Rate"]))
     logging.info("Currency exchange rates fetched.")
 
     # Extracting and transforming data
@@ -89,19 +89,17 @@ def main():
     # Loading to SQL database
     load_to_sql(df, "bank_data.db", "bank_data")
 
-    # Running queries
-    query_london = "SELECT `Rank & Bank`, `Market Cap (billion GBPs)` FROM bank_data WHERE `Headquarters` LIKE '%London%';"
-    query_beijing = "SELECT `Rank & Bank`, `Market Cap (billion EURs)` FROM bank_data WHERE `Headquarters` LIKE '%Beijing%';"
-    query_mumbai = "SELECT `Rank & Bank`, `Market Cap (billion INRs)` FROM bank_data WHERE `Headquarters` LIKE '%Mumbai%';"
-
-    result_london = run_query("bank_data.db", query_london)
-    result_berlin = run_query("bank_data.db", query_beijing)
-    result_delhi = run_query("bank_data.db", query_mumbai)
+    print("query: SELECT * FROM bank_data")
+    q1 = run_query("bank_data.db", "SELECT * FROM bank_data")
+    print("query: SELECT AVG(Market_Cap_billion_GBPs) FROM bank_data")
+    q2 = run_query("bank_data.db", "SELECT AVG(Market_Cap_billion_GBPs) FROM bank_data")
+    print("query: SELECT Name FROM bank_data LIMIT 5")
+    q3 = run_query("bank_data.db", "SELECT Name FROM bank_data LIMIT 5")
 
     logging.info("Results of SQL queries:")
-    logging.info(f"London: {result_london}")
-    logging.info(f"Berlin: {result_berlin}")
-    logging.info(f"Delhi: {result_delhi}")
+    logging.info(f"query1: {q1}")
+    logging.info(f"query2: {q2}")
+    logging.info(f"query3: {q3}")
 
 
     # Log progress
